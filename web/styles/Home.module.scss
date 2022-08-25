@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-top: 20px;
+    color: var(--main);
+    text-align: center;
+  }
+
+  h4 {
+    margin-top: 4px;
+    text-align: center;
+  }
+}
+
+.plub {
+  background-color: var(--complement-main);
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
